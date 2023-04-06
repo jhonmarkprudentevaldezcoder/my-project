@@ -42,7 +42,10 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#0A192F]">
+    <div
+      id="mainhome"
+      className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#0A192F]"
+    >
       <div className="max-w-full h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
