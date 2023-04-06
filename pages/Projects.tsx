@@ -2,6 +2,7 @@ import SectionTitle from '@/components/SectionTitle';
 import Link from 'next/link';
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { FcOpenedFolder } from 'react-icons/fc';
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
@@ -99,6 +100,13 @@ const Projects = () => {
                 >
                   <FaGithub />
                 </Link>
+
+                <Link
+                  href="/assets/exe.rar"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FcOpenedFolder />
+                </Link>
               </div>
             </div>
           </div>
@@ -135,7 +143,6 @@ const Projects = () => {
                 <li>Next js</li>
                 <li>Typescript</li>
                 <li>Tailwind</li>
-                <li>Framer motion</li>
                 <li>React Auth</li>
                 <li>Bcrypt</li>
                 <li>MongoDb</li>

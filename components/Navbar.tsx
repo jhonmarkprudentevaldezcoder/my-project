@@ -18,6 +18,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 const Navbar = () => {
   const ref = useRef<string | any>('');
   const [showMenu, setShowMenu] = useState(false);
+
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShowMenu(false);
