@@ -11,7 +11,7 @@ const MiddleContainer = () => {
         transition={{ delay: 0.6, duration: 0.5 }}
         className="text-lg font-titleFont tracking-wide text-teal-400"
       >
-        Hi, my name si
+        Hi, i'M
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -19,9 +19,9 @@ const MiddleContainer = () => {
         transition={{ delay: 0.6, duration: 0.5 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Jhon Mark Valdez.{' '}
+        JHON MARK PRUDENTE VALDEZ.{' '}
         <span className="text-gray-500 mt-2 lgl:mt-4">
-          Full stack developer.
+          FULL STACK DEVELOPER
         </span>
       </motion.h1>
       <motion.p
@@ -36,7 +36,7 @@ const MiddleContainer = () => {
         Ipsum. <br />
         <Link
           href="https://markvaldezportfoliowebsite-markbrvaldez-gmailcom.vercel.app/?fbclid=IwAR0pM3R_Ij3ZYC0MTjyaTx6DyEJNUDucdQUzOvhJozAYuURQ6LGHIMy053w"
-          target="_blank" 
+          target="_blank"
         >
           <span className="text-teal-400 inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
