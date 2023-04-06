@@ -1,0 +1,160 @@
+import SectionTitle from '@/components/SectionTitle';
+import Link from 'next/link';
+import React from 'react';
+import { FaGithub } from 'react-icons/fa';
+const Projects = () => {
+  return (
+    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+      <SectionTitle title="Projects" titleNo="- 03." />
+
+      <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+        {/* project one */}
+        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <Link
+              href=""
+              className="w-full xl:w-1/2 h-auto relative group"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/portfolio.PNG"
+                  className="w-full h-full object-contain"
+                  alt="portfolio"
+                />
+              </div>
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-teal-400 text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Portfolio webiste</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. <span className="text-teal-400">Lorem Ipsum</span> has
+                been the industry's standard{' '}
+                <span className="text-teal-400">dummy</span> text ever since the
+                1500s,
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>Next js</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>Framer motion</li>
+              </ul>{' '}
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href=""
+                  target="_blank"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FaGithub />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* project app */}
+        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            <Link
+              href=""
+              className="w-full xl:w-1/2 h-auto relative group"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/bloodbank.PNG"
+                  className="w-full h-full object-contain"
+                  alt="portfolio"
+                />
+              </div>
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right  z-10">
+              <p className="font-titleFont text-teal-400 text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                Blood bank management system
+              </h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xl:-ml-16">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. <span className="text-teal-400">Lorem Ipsum</span> has
+                been the industry's standard{' '}
+                <span className="text-teal-400">dummy</span> text ever since the
+                1500s,
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>VB.net</li>
+                <li>Firebase</li>
+                <li>Guna</li>
+                <li>Visual Studio</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href=""
+                  target="_blank"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FaGithub />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* project one */}
+        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <Link
+              href=""
+              className="w-full xl:w-1/2 h-auto relative group"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/ecom.PNG"
+                  className="w-full h-full object-contain"
+                  alt="portfolio"
+                />
+              </div>
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-teal-400 text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Ecommerce webiste</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. <span className="text-teal-400">Lorem Ipsum</span> has
+                been the industry's standard
+                <span className="text-teal-400">dummy</span> text ever since the
+                1500s,
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>Next js</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>Framer motion</li>
+                <li>React Auth</li>
+                <li>Bcrypt</li>
+                <li>MongoDb</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href=""
+                  target="_blank"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FaGithub />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
