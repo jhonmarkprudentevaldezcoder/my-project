@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
         {/* project one */}
-        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full  flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
             <Link
               href=""
@@ -33,7 +33,7 @@ const Projects = () => {
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. <span className="text-teal-400">Lorem Ipsum</span> has
-                been the industry's standard{' '}
+                been the industry's standard
                 <span className="text-teal-400">dummy</span> text ever since the
                 1500s,
               </p>
@@ -42,7 +42,7 @@ const Projects = () => {
                 <li>Typescript</li>
                 <li>Tailwind</li>
                 <li>Framer motion</li>
-              </ul>{' '}
+              </ul>
               <div className="text-2xl flex gap-4">
                 <Link
                   href=""
@@ -57,7 +57,7 @@ const Projects = () => {
         </div>
 
         {/* project app */}
-        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex-col items-center justify-center gap-28 ">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <Link
               href=""
@@ -112,7 +112,7 @@ const Projects = () => {
           </div>
         </div>
         {/* project one */}
-        <div className="w-full flex-col items-center justify-center gap-28 mt-10">
+        <div className="w-full flex-col items-center justify-center gap-28 ">
           <div className="flex flex-col xl:flex-row gap-6">
             <Link
               href=""

@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main
         id="main"
-        className="w-full h-screen font-bodyFont bg-[#0A192F] text-[#ccd6f6] overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-teal-600/20 scrollbar-thumb-teal-600"
+        className="w-full h-screen font-bodyFont bg-[#333333] text-[#ccd6f6] overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-teal-600/20 scrollbar-thumb-teal-600"
       >
         <Navbar />
         <MainContent />
