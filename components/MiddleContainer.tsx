@@ -21,7 +21,7 @@ const MiddleContainer = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
-        className="text-lg font-titleFont tracking-wide text-teal-400"
+        className="text-lg font-titleFont tracking-wide text-teal-400 animate-bounce"
       >
         Hi, i'M
       </motion.h3>

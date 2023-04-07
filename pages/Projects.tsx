@@ -29,7 +29,7 @@ const Projects = () => {
               <p className="font-titleFont text-teal-400 text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Portfolio webiste</h3>
+              <h3 className="text-2xl font-bold">PORTFOLIO WEBSITE</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. <span className="text-teal-400">Lorem Ipsum</span> has
