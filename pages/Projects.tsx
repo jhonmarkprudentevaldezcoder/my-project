@@ -25,12 +25,12 @@ const Projects = () => {
                 />
               </div>
             </Link>
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between  items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-teal-400 text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">PORTFOLIO WEBSITE</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. <span className="text-teal-400">Lorem Ipsum</span> has
                 been the industry's standard
@@ -79,7 +79,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">
                 Blood bank management system
               </h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xl:-ml-16">
+              <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md xl:-ml-16">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. <span className="text-teal-400">Lorem Ipsum</span> has
                 been the industry's standard{' '}
@@ -132,7 +132,7 @@ const Projects = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Ecommerce webiste</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. <span className="text-teal-400">Lorem Ipsum</span> has
                 been the industry's standard
