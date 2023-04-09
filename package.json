@@ -22,6 +22,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
+    "react-lottie": "^1.2.3",
     "react-simple-typewriter": "^5.0.1",
     "react-toastify": "^9.1.2",
     "tailwind-scrollbar": "^3.0.0",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/react-lottie": "^1.2.6",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
     "react-aos": "^1.0.1",

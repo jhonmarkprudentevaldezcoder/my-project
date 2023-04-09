@@ -6,6 +6,9 @@ import { useEffect, useState } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
 const inter = Inter({ subsets: ['latin'] });
 import { NextSeo } from 'next-seo';
+import React from 'react';
+import Lottie from 'react-lottie';
+import loadingLottie from '../public/loadingAnimation.json';
 
 export default function Home() {
   let [loading, setLoading] = useState(true);
@@ -14,7 +17,7 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 5000);
   }, []);
   const seoConfig = {
     title: 'Jhon mark prudente valdez portfolio website',
@@ -41,6 +44,15 @@ export default function Home() {
       cardType: 'summary_large_image',
     },
   };
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: loadingLottie,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
   return (
     <>
       <Head>
@@ -51,7 +63,7 @@ export default function Home() {
       </Head>
 
       {loading ? (
-        <LoadingScreen />
+        <Lottie options={defaultOptions} height={400} width={400} />
       ) : (
         <main
           id="main"
