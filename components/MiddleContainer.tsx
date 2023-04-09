@@ -42,10 +42,8 @@ const MiddleContainer = () => {
         transition={{ delay: 0.6, duration: 0.5 }}
         className="text-base md:max-w-[650px] text-gray-400 font-medium"
       >
-        It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum. <br />
+        hi my name is mark valdez and i like coding since i was junior high
+        school welcome to my portfolio website i hope you like it <br />
         <Link
           href="https://markvaldezportfoliowebsite-markbrvaldez-gmailcom.vercel.app/?fbclid=IwAR0pM3R_Ij3ZYC0MTjyaTx6DyEJNUDucdQUzOvhJozAYuURQ6LGHIMy053w"
           target="_blank"
