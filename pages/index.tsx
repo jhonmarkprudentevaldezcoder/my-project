@@ -22,9 +22,6 @@ export default function Home() {
     loop: true,
     autoplay: true,
     animationData: loadingLottie,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
   };
   return (
     <>
