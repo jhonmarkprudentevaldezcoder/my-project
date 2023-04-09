@@ -33,10 +33,9 @@ const Projects = () => {
               <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
                 This is my personal website built with{' '}
                 <span className="text-teal-400">nextjs</span> and
-                <span className="text-teal-400"> tailwind</span> . has been the
-                industry's standard
-                <span className="text-teal-400">dummy</span> text ever since the
-                1500s,
+                <span className="text-teal-400"> tailwind</span> . here you can
+                see my personal projects that you can use and view below you can
+                see the materials I used to build this project
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
                 <li>Next js</li>
