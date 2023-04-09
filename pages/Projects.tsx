@@ -77,11 +77,11 @@ const Projects = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">
-                Blood bank management system
+                BLOOD BANK MANAGEMENT SYSTEM
               </h3>
               <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md xl:-ml-16">
                 <span className="text-teal-400">
-                  blood bank management system{' '}
+                  BLOOD BANK MANAGEMENT SYSTEM{' '}
                 </span>
                 this is what I made for those who manage those who{' '}
                 <span className="text-teal-400">request blood </span>
@@ -134,7 +134,7 @@ const Projects = () => {
               <p className="font-titleFont text-teal-400 text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Ecommerce webiste</h3>
+              <h3 className="text-2xl font-bold">NEXT JS ECOMMERCE WEBSITE</h3>
               <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
                 <span className="text-teal-400">next js ecommerce</span> project
                 is my personal project I made it for my exploration and exercise
