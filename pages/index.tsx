@@ -5,6 +5,7 @@ import MainContent from '@/components/MainContent';
 import { useEffect, useState } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
 const inter = Inter({ subsets: ['latin'] });
+import { NextSeo } from 'next-seo';
 
 export default function Home() {
   let [loading, setLoading] = useState(true);
@@ -15,7 +16,31 @@ export default function Home() {
       setLoading(false);
     }, 2000);
   }, []);
-
+  const seoConfig = {
+    title: 'Jhon mark prudente valdez portfolio website',
+    description:
+      'my name is mark valdez this is my personal website build with next js .',
+    canonical:
+      'https://portfolio-seven-alpha-27.vercel.app/?fbclid=IwAR20paG-iHuqGuC399XJcMoc8z5nlJnx401fQRer2TSrQBDqZ_mBDt6a--k',
+    openGraph: {
+      type: 'website',
+      url: 'https://portfolio-seven-alpha-27.vercel.app/?fbclid=IwAR20paG-iHuqGuC399XJcMoc8z5nlJnx401fQRer2TSrQBDqZ_mBDt6a--k',
+      title: 'jhon mark prudente valdez portfolio website',
+      description:
+        'jhon mark prudente valdez portfolio website build with next js .',
+      images: [
+        {
+          url: 'https://portfolio-seven-alpha-27.vercel.app/',
+          width: 800,
+          height: 600,
+          alt: 'An image of my page',
+        },
+      ],
+    },
+    twitter: {
+      cardType: 'summary_large_image',
+    },
+  };
   return (
     <>
       <Head>
