@@ -5,8 +5,7 @@ import MainContent from '@/components/MainContent';
 import { useEffect, useState } from 'react';
 const inter = Inter({ subsets: ['latin'] });
 import React from 'react';
-import Lottie from 'react-lottie';
-import loadingLottie from '../public/loadingAnimation.json';
+import LoadingScreen from '@/components/LoadingScreen';
 
 export default function Home() {
   let [loading, setLoading] = useState(true);
@@ -18,11 +17,6 @@ export default function Home() {
     }, 5000);
   }, []);
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: loadingLottie,
-  };
   return (
     <>
       <Head>
@@ -33,7 +27,7 @@ export default function Home() {
       </Head>
 
       {loading ? (
-        <Lottie options={defaultOptions} height={400} width={400} />
+        <LoadingScreen />
       ) : (
         <main
           id="main"
