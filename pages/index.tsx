@@ -57,6 +57,7 @@ export default function Home() {
           id="main"
           className="w-full h-screen font-bodyFont bg-[#333333] text-[#ccd6f6] overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-teal-600/20 scrollbar-thumb-teal-600"
         >
+          <NextSeo {...seoConfig} />
           <Navbar />
           <MainContent />
         </main>
