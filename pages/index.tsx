@@ -1,4 +1,3 @@
-'use client';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
@@ -7,6 +6,8 @@ import { useEffect, useState } from 'react';
 const inter = Inter({ subsets: ['latin'] });
 import React from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
+import Lottie from 'react-lottie';
+import lottieLoading from '..//public/loadingLottie.json';
 
 export default function Home() {
   let [loading, setLoading] = useState(true);
@@ -18,6 +19,14 @@ export default function Home() {
     }, 5000);
   }, []);
 
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: lottieLoading,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
   return (
     <>
       <Head>
@@ -28,7 +37,7 @@ export default function Home() {
       </Head>
 
       {loading ? (
-        <LoadingScreen />
+        <Lottie options={defaultOptions} height={400} width={400} />
       ) : (
         <main
           id="main"
