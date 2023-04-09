@@ -31,9 +31,10 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">PORTFOLIO WEBSITE</h3>
               <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. <span className="text-teal-400">Lorem Ipsum</span> has
-                been the industry's standard
+                This is my personal website built with{' '}
+                <span className="text-teal-400">nextjs</span> and
+                <span className="text-teal-400"> tailwind</span> . has been the
+                industry's standard
                 <span className="text-teal-400">dummy</span> text ever since the
                 1500s,
               </p>
