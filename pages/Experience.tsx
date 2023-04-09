@@ -1,3 +1,4 @@
+'use client';
 import SectionTitle from '@/components/SectionTitle';
 import React, { useState } from 'react';
 import Freelance from '@/components/Works/Freelance';
