@@ -85,7 +85,7 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <img
-                className="rounded-lg h-full object-cover"
+                className="rounded-lg h-full object-cover m-auto"
                 src="/profilepic.jpg"
                 alt="profile"
               />

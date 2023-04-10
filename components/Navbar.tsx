@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiAlignRight } from 'react-icons/fi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -16,6 +16,22 @@ import { RiInstagramLine } from 'react-icons/ri';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const Navbar = () => {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    function handleScrolled() {
+      const scrollTop = window.pageYOffset;
+      const hasScrolled = scrollTop !== 0;
+      setHasScrolled(hasScrolled);
+    }
+
+    window.addEventListener('scroll', handleScrolled);
+
+    return () => {
+      window.removeEventListener('scroll', handleScrolled);
+    };
+  }, []);
+
   const ref = useRef<string | any>('');
   const [showMenu, setShowMenu] = useState(false);
 
@@ -45,10 +61,10 @@ const Navbar = () => {
   return (
     <div
       id="mainhome"
-      className="w-full md:shadow-navbarShadow  h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#
+      className="w-full shadow-navbarShadow bg-[#333333] h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#
       ]"
     >
-      <div className="max-w-full bg-[#333333] h-full mx-auto py-1 font-titleFont flex items-center justify-between">
+      <div className="max-w-full top-0 bg-[#333333] h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -153,7 +169,7 @@ const Navbar = () => {
         {/* drawers */}
         <div
           onClick={() => setShowMenu(true)}
-          className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-teal-400 cursor-pointer overflow-hidden group"
+          className="w-6 h-10 flex flex-col justify-between items-center mdl:hidden text-4xl text-teal-400 cursor-pointer overflow-hidden group"
         >
           <FiAlignRight className="h-32 w-12 text-teal-500 cursor-pointer hover:text-teal-300 duration-300" />
         </div>
@@ -167,7 +183,7 @@ const Navbar = () => {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#333333] flex flex-col items-center px-4 py-10 relative"
             >
               <AiOutlineClose
                 onClick={() => setShowMenu(false)}
