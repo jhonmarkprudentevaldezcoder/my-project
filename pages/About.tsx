@@ -11,21 +11,18 @@ const About = () => {
       <SectionTitle title="About Me" titleNo="- 01." />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base  text-gray-400 font-medium flex flex-col gap-4">
-          <p>
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+          <p className="capitalize">
+            As a BS Information Technology graduate from Colegio de Montaban, I
+            seeking an entry-level position as a web developer at your firm. I
+            have 2 months of internship experience at valorant and part time
+            freelancer creating web apps, android applications where I
+            fine-tuned my skills.
           </p>
-          <p>
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-          </p>
-          <p>
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+          <p className="capitalize">
+            My strong background in computer programming, keen interest in
+            Building web apps , full stack development work skills and attention
+            to detail have fetched me many awards at various senior high and
+            college-level competitions
           </p>
 
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2">
