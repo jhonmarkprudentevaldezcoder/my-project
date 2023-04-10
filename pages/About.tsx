@@ -12,7 +12,10 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base  text-gray-400 font-medium flex flex-col gap-4">
           <p className="capitalize">
-            As a BS Information Technology graduate from Colegio de Montaban, I
+            As a{' '}
+            <span className="text-teal-400">BS Information Technology </span>
+            graduate from{' '}
+            <span className="text-teal-400">Colegio de Montaban</span>, I
             seeking an entry-level position as a web developer at your firm. I
             have 2 months of internship experience at valorant and part time
             freelancer creating web apps, android applications where I
