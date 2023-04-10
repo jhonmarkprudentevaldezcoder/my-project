@@ -45,7 +45,8 @@ const Navbar = () => {
   return (
     <div
       id="mainhome"
-      className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#333333]"
+      className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 px-10 bg-[#
+      ]"
     >
       <div className="max-w-full h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
