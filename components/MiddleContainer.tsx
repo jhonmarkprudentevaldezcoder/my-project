@@ -40,10 +40,11 @@ const MiddleContainer = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
-        className="text-base md:max-w-[650px] text-gray-400 font-medium"
+        className="text-base md:max-w-[650px] text-gray-400 font-medium capitalize"
       >
-        hi my name is mark valdez and i like coding since i was junior high
-        school welcome to my portfolio website i hope you like it <br />
+        Hi I'm a web developer Currently. I'm learning on building mobile app
+        both Ios and android with Flutter. Welcome to my portfolio website hope
+        you like it.. <br />
         <Link
           href="https://markvaldezportfoliowebsite-markbrvaldez-gmailcom.vercel.app/?fbclid=IwAR0pM3R_Ij3ZYC0MTjyaTx6DyEJNUDucdQUzOvhJozAYuURQ6LGHIMy053w"
           target="_blank"
