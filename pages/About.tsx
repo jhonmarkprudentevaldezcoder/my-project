@@ -1,6 +1,15 @@
 import SectionTitle from '@/components/SectionTitle';
 import React from 'react';
 import { AiFillCodeSandboxCircle } from 'react-icons/ai';
+import { FaReact } from 'react-icons/fa';
+import { DiJavascript1 } from 'react-icons/di';
+import { TbBrandTailwind, TbBrandDjango } from 'react-icons/tb';
+import {
+  SiNextdotjs,
+  SiFirebase,
+  SiDotnet,
+  SiAndroidstudio,
+} from 'react-icons/si';
 
 const About = () => {
   return (
@@ -31,49 +40,49 @@ const About = () => {
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2">
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <DiJavascript1 />
               </span>
               Javascript (ES6+)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <FaReact />
               </span>
               React
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <TbBrandTailwind />
               </span>
               Tailwindcss
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <SiFirebase />
               </span>
               Firebase
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <SiNextdotjs />
               </span>
               Next.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <SiDotnet />
               </span>
               VB.Net
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <TbBrandDjango />
               </span>
               Django
             </li>
             <li className="flex items-center gap-2">
               <span className="text-teal-500">
-                <AiFillCodeSandboxCircle />
+                <SiAndroidstudio />
               </span>
               Android Studio
             </li>
