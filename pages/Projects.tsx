@@ -19,8 +19,8 @@ const Projects = () => {
             >
               <div>
                 <img
-                  src="/portfolio.PNG"
-                  className="w-full h-full object-contain"
+                  src="/web.PNG"
+                  className="w-full h-full object-contain shadow-navbarShadow"
                   alt="portfolio"
                 />
               </div>
