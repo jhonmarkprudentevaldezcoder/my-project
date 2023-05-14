@@ -26,9 +26,9 @@ const About = () => {
             graduate from{' '}
             <span className="text-teal-400">Colegio de Montaban</span>, I
             seeking an entry-level position as a web developer at your firm. I
-            have 2 months of internship experience at valorant and part time
-            freelancer creating web apps, android applications where I
-            fine-tuned my skills.
+            have 2 months of internship experience at Department of Social
+            Welfare and Development (DSWD) and part time freelancer creating web
+            apps, android applications where I fine-tuned my skills.
           </p>
           <p className="capitalize">
             My strong background in computer programming, keen interest in

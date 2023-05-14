@@ -10,7 +10,6 @@ const MiddleContainer = () => {
       '</REACT DEVELOPER>',
       'DESIGNER',
       'FULL STACK DEVELOPER',
-      'ANDROID APP DEVELOPER /',
     ],
     loop: true,
     delaySpeed: 2000,
