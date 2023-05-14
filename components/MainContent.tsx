@@ -13,7 +13,7 @@ const MainContent = () => {
   return (
     <div
       id="home"
-      className="w-full h-[88vh] xl:flex items-center gap-20 justify-between"
+      className="w-full h-[calc(100vh-74px)] xl:flex items-center gap-20 justify-between"
     >
       <motion.div
         initial={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const MainContent = () => {
       >
         <LeftContainer />
       </motion.div>
-      <div className=" h-[88vh] w-full mx-auto p-4 ">
+      <div className=" h-[60vh] w-full mx-auto p-4 ">
         <MiddleContainer />
         {/* about */}
         <About />
