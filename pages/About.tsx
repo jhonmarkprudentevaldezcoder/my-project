@@ -1,6 +1,5 @@
 import SectionTitle from '@/components/SectionTitle';
 import React from 'react';
-import { AiFillCodeSandboxCircle } from 'react-icons/ai';
 import { FaReact } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandDjango } from 'react-icons/tb';
@@ -15,7 +14,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className=" max-w-contentContainer mx-auto py-20 lgl:py-32 flex flex-col gap-8"
+      className=" max-w-contentContainer mx-auto py-20 lgl:py-52 flex flex-col gap-8"
     >
       <SectionTitle title="About Me" titleNo="- 01." />
       <div className="flex flex-col lgl:flex-row gap-16">

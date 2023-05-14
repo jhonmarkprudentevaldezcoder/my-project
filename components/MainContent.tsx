@@ -23,7 +23,7 @@ const MainContent = () => {
       >
         <LeftContainer />
       </motion.div>
-      <div className=" h-[60vh] w-full mx-auto p-4 ">
+      <div className=" h-[50vh] w-full mx-auto p-4 ">
         <MiddleContainer />
         {/* about */}
         <About />
