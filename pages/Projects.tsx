@@ -161,6 +161,110 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* netflix clone project */}
+        <div className="w-full flex-col items-center justify-center gap-28 ">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            <Link
+              href=""
+              className="w-full xl:w-1/2 h-auto relative group"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/bloodbank.PNG"
+                  className="w-full h-full object-contain"
+                  alt="portfolio"
+                />
+              </div>
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right  z-10">
+              <p className="font-titleFont text-teal-400 text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                BLOOD BANK MANAGEMENT SYSTEM
+              </h3>
+              <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md xl:-ml-16">
+                <span className="text-teal-400">
+                  BLOOD BANK MANAGEMENT SYSTEM{' '}
+                </span>
+                this is what I made for those who manage those who{' '}
+                <span className="text-teal-400">request blood </span>
+                and <span className="text-teal-400">donate blood </span> here
+                they can manage their data. below you can see the materials I
+                used to build this project
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>VB.net</li>
+                <li>Firebase</li>
+                <li>Guna</li>
+                <li>Visual Studio</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href=""
+                  target="_blank"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FaGithub />
+                </Link>
+
+                <Link
+                  href="/assets/exe.rar"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FcOpenedFolder />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* project one */}
+        <div className="w-full flex-col items-center justify-center gap-28 ">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <Link
+              href=""
+              className="w-full xl:w-1/2 h-auto relative group"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/markflix.PNG"
+                  className="w-full h-full object-contain"
+                  alt="portfolio"
+                />
+              </div>
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-teal-400 text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                NEXT JS NETFLIX CLONE WEBSITE
+              </h3>
+              <p className="bg-[#222222] text-sm md:text-base p-2 md:p-6 rounded-md">
+                <span className="text-teal-400">next js netflix clone</span>{' '}
+                project is my personal project I made it for my exploration and
+                exercise of my programming skills below you can see the
+                materials I used to build this project
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>Next js</li>
+                <li>Tailwind</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href="https://github.com/jhonmarkprudentevaldezcoder/netflixclone"
+                  target="_blank"
+                  className="hover:text-teal-500 duration-300"
+                >
+                  <FaGithub />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
