@@ -43,7 +43,7 @@ const Experience = () => {
                 : 'border-l-2 border-l-teal-500 text-gray-300'
             }  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            DSWD
+            DSWD edit
           </li>
         </ul>
 
