@@ -272,7 +272,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                   <Link
-                    href="/assets/VALDEZ-resume.docx"
+                    href="/assets/JHON-MARK-VALDEZ.pdf"
                     target="_blank"
                     className="hover:-translate-y-2 transition-all duration-300"
                   >
