@@ -14,7 +14,7 @@ const Datadynamix = () => {
         Full stack Web developer
       </h3>
       <p className="text-sm mt-1 font-medium text-gray-400">
-        April to June 2023
+        April 2023 to June 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-gray-300">
@@ -33,13 +33,7 @@ const Datadynamix = () => {
           </span>
          On-boarded as Student Trainee at Administrative Service - Building and Grounds Management Division as part of the academic requirements.
         </li>
-        <li className="text-base flex gap-2 text-gray-300">
-          <span className="text-teal-400 mt-1">
-            <TiArrowForward />
-          </span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </li>
+      
       </ul>
     </motion.div>
   );
